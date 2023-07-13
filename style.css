@@ -2,4 +2,6 @@ h2 {color: purple;}
 h1 {color: purple;}
 .background-img {
     background: url("https://today.ucsd.edu/news_uploads/img-primary-Geisel-UCSanDiego-ErikJepsen-090922.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
