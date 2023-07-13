@@ -30,17 +30,26 @@
 .about-me .about-inner {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .about-me .about-inner .pfp{
-    max-height: 550px;
-    max-width: 550px;
-    transform: translate(120px, -50px);
-    clip-path: circle(150px at 40% 50%);
+    max-height: 3500px;
+    max-width: 350px;
+}
+
+.about-me .about-inner .pfp .pfp-img{
+    clip-path: circle(45%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .about-me .about-inner .bio{
-
-    
+    transform: translate(10px, 0px);
+    max-width: 70%;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 
