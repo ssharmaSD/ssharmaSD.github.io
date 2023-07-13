@@ -1,13 +1,27 @@
-h2 {color: white;}
-h1 {color: white;}
-p{color: white;}
+.background-img h1 {
+    color: white;
+    font-size: 95px;
+    text-shadow: 0 0 2px #000;
+    }
+.background-img h2 {
+    color: white;
+    font-size: 70px;
+    text-shadow: 0 0 20px #000;
+    }
+
+h3{
+    font-size: 25px;
+    }
+
+
 .background-img {
     background: url("https://today.ucsd.edu/news_uploads/img-primary-Geisel-UCSanDiego-ErikJepsen-090922.jpg");
-    background-position: center;
-    background-size: contain;
+    background-position: center 80%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%; /* fill screen */
-    width: 100%
+    height: 600px; /* fill screen up to certain point*/ 
+    width: 100%;
+    padding-top: 275px;
 
   }
-  body, html {width: 100%; height: 100%}
+  body, main, html {width: 100%; height: 100%; margin: 0; padding: 0}
