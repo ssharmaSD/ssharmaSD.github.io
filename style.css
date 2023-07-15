@@ -1,6 +1,7 @@
  body, main, html {width: 100%; height: 100%; margin: 0; padding: 0}
  h3{font-size: 25px; font-family: sans-serif;}
 
+/*BACKGROUND IMAGE/HEADER SECTION */
 .background-img h1 {
     color: white;
     font-size: 95px;
@@ -21,7 +22,7 @@
     width: 100%;
     padding-top: 275px;
   }
-
+/*ABOUT ME SECTION */
 .about-me h2{
     font-size: 50px;
     font-family: sans-serif;
@@ -39,7 +40,7 @@
 }
 
 .about-me .about-inner .pfp .pfp-img{
-    clip-path: circle(45%);
+    clip-path: circle(43%);
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -47,13 +48,27 @@
 
 .about-me .about-inner .bio{
     transform: translate(10px, 0px);
-    max-width: 70%;
+    padding-top: 3.5%;
+    max-width: 40%;
     text-align: center;
     flex-wrap: wrap;
+    font-weight: normal;
+    font-size: 30px;
 }
 
+/*Hello! My name is Suhani Sharma and I am a current Data 
+Science major at UC San Diego. I first started programming 
+in high school and have always been passionate about 
+the capabilities of software engineering. I am 
+interested in data storytelling and machine learning and 
+AI development. */
 
-
+/*PROJECTS AND EXPERIENCE SECTION*/
+.proj-exp h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
 
 
 
