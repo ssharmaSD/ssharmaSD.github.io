@@ -35,7 +35,7 @@
     flex-wrap: wrap;
 }
 .about-me .about-inner .pfp{
-    max-height: 3500px;
+    max-height: 350px;
     max-width: 350px;
 }
 
@@ -53,7 +53,7 @@
     text-align: center;
     flex-wrap: wrap;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 /*Hello! My name is Suhani Sharma and I am a current Data 
@@ -63,13 +63,58 @@ the capabilities of software engineering. I am
 interested in data storytelling and machine learning and 
 AI development. */
 
-/*PROJECTS AND EXPERIENCE SECTION*/
-.proj-exp h2{
-    font-size: 50px;
+/*PROFESSIONAL EXPEREINCE SECTION*/
+
+/*I spent a lot of time in office hours, especially in my first two quarters 
+and found not only support from my peers but also a community. These 
+experiences inspired me to tutor as well. Tutoring for the has been an 
+incredibly enriching experience that has allowed me to share knowledge and 
+passions with others as well as learn from my colleagues. My responsibilities 
+included hosting weekly office hours both in group settings and one-on-one 
+with students, answering student questions on online forums, aiding professors 
+in creating and grading assignments such as homework, labs, and projects for 
+DSC 10: Principles of Data Science.*/
+.prof-exp h2 {
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: normal;
 }
 
+.prof-exp .prof-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.prof-exp .prof-inner .hdsi {
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.prof-exp .prof-inner .hdsi .hdsi-img {
+    clip-path: circle(30%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.prof-exp .prof-inner .tutor {
+    transform: translate(5px, 0px);
+    padding-top: 3.5%;
+    max-width: 60%;
+    text-align: center;
+    flex-wrap: wrap;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+/*PROJECTS SECTION*/
+.proj h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
 
 
 
