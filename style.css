@@ -5,6 +5,11 @@
     font-family: sans-serif;
     font-weight: normal;
 }
+span{
+    color: #4e32a8;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 /*BACKGROUND IMAGE/HEADER SECTION */
 .background-img h1 {
@@ -104,12 +109,6 @@ DSC 10: Principles of Data Science.*/
     font-size: 20px;
 }
 
-.prof-exp .prof-inner .tutor span{
-    color: #4e32a8;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .prof-exp .prof-inner .tutor h3{
     font-size: 22px;
 }
@@ -120,7 +119,7 @@ DSC 10: Principles of Data Science.*/
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1500px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -147,10 +146,19 @@ DSC 10: Principles of Data Science.*/
     font-size: 22px;
 }
 
+.proj .proj-teams .team h5{
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #7d7c7a;
+    text-align: center;
+}
+
 .proj .proj-teams .team p{
     font-weight: normal;
     font-size: 20px;
 }
+
+
 
 
 
