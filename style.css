@@ -95,9 +95,9 @@ DSC 10: Principles of Data Science.*/
 }
 
 .prof-exp .prof-inner .tutor {
-    transform: translate(5px, 0px);
+    transform: translate(-5px, 0px);
     padding-top: 3.5%;
-    max-width: 60%;
+    max-width: 50%;
     text-align: center;
     flex-wrap: wrap;
     font-weight: normal;
@@ -132,8 +132,9 @@ DSC 10: Principles of Data Science.*/
 
 .proj .proj-teams .team img{
     clip-path: circle(37%);
-    width: 100%;
-    object-fit: contain;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 .proj .proj-teams .team h4, p{
     width: 100%;
