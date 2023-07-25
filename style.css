@@ -124,6 +124,7 @@ DSC 10: Principles of Data Science.*/
 }
 
 .proj .proj-teams .team{
+    display: flex;
     max-width: 350px;
     display: block;
     margin: 5%;
@@ -139,6 +140,7 @@ DSC 10: Principles of Data Science.*/
     width: 100%;
     text-align: center;
     flex-wrap: wrap;
+    max-width: 500px;
 }
 
 .proj .proj-teams .team h4{
@@ -156,10 +158,39 @@ DSC 10: Principles of Data Science.*/
 .proj .proj-teams .team p{
     font-weight: normal;
     font-size: 20px;
+    text-align: center;
 }
 
+/*PERSONAL INTERESTS + HOBBIES SECTION*/
+.interests .interests-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.interests .interests-inner .pics {
+    background: gray;
+    max-width: 70%;
+    margin: 5%;
+}
 
+.interests .interests-inner .pics .pics-inner {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+/*SOCIAL MEDIA SECTION*/
+.connect h4{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+    background: #b88cf5;
+    padding: 20px;
+    width: 80%;
+}
 
 
 
