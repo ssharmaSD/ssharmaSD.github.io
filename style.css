@@ -180,16 +180,25 @@ DSC 10: Principles of Data Science.*/
     max-width: 200px;
 }
 
+.interests .interests-inner .blurb {
+    font-size: 19px;
+}
+
+
+
 /*SOCIAL MEDIA SECTION*/
-.connect h4{
+.connect {
     margin: auto;
     text-align: center;
-    font-size: 30px;
-    color: white;
+    font-size: 40px;
     border-radius: 25px;
     background: #b88cf5;
-    padding: 20px;
     width: 80%;
+}
+
+.connect img {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 
