@@ -171,6 +171,7 @@ DSC 10: Principles of Data Science.*/
 
 .interests .interests-inner .pics {
     max-width: 95%;
+    gap: 10px;
 
 }
 
