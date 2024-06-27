@@ -21,14 +21,16 @@ nav ul li {
 }
 
 .nav-button {
-    background-color: #FFFFFF; /* Button background color */
+    background-color: #000000; /* Button background color */
     color: black; /* Button text color */
     padding: 14px 20px;
     text-decoration: none;
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.5s; /* Smooth transition */
+    border: 2px solid transparent;
 }
 
 .nav-button:hover {
     background-color: #E2C9F5; /* Button color on hover */
+    border-color: #E2C9F5;
 }
