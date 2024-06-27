@@ -1,11 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: serif;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
-    background-color: #333;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 nav ul {
@@ -13,6 +16,7 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-weight: bold;
 }
 
 nav ul li {
@@ -20,8 +24,10 @@ nav ul li {
     margin-right: 15px;
 }
 
+/* NAVIGATION BAR */
+
 .nav-button {
-    background-color: #000000; /* Button background color */
+    background-color: white; /* Button background color */
     color: black; /* Button text color */
     padding: 14px 20px;
     text-decoration: none;
@@ -32,5 +38,28 @@ nav ul li {
 
 .nav-button:hover {
     background-color: #E2C9F5; /* Button color on hover */
-    border-color: #E2C9F5;
+    border-color: #E2C9F5; /* Border color on hover */
+}
+
+/* ABOUT SECTION */
+
+.about p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+main {
+    flex: 1; /* Allow the main content to grow and take up available space */
+    padding: 10px;
+}
+
+footer {
+    background-color: #E2C9F5;
+    color: black; /* text color */
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 5px;
+    border-radius: 5px; /* Rounded corners */
 }
