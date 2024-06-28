@@ -51,6 +51,9 @@ nav ul li {
 main {
     flex: 1; /* Allow the main content to grow and take up available space */
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
 }
 
 footer {
@@ -62,4 +65,40 @@ footer {
     position: relative;
     bottom: 5px;
     border-radius: 5px; /* Rounded corners */
+}
+
+span {
+    color: #4e32a8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* PROFESSIONAL EXPERIENCE SECTION */
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    max-width: 100%; /* Ensure rows do not exceed the width of their container */
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    clip-path: circle(45%);
+    max-width: 150px; /* Max width of the image container */
+    max-height: 150px; /* Max height of the image container */
+    object-fit: cover;
+}
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
 }
