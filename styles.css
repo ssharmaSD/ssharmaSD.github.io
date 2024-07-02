@@ -115,6 +115,7 @@ span {
     flex: 2;
     padding: 20px;
     text-align: left;
+    width: 600px;
 }
 
 .text-container h2{
