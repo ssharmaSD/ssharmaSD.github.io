@@ -138,7 +138,7 @@ span {
     margin: 20px;
     border-radius: 50%; /* Creates the oval shape */
     position: relative;
-    displat: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
