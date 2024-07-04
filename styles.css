@@ -104,7 +104,6 @@ span {
 }
 
 .image-container img {
-    clip-path: circle(40%);
     max-width: 150px; /* Max width of the image container */
     max-height: 150px; /* Max height of the image container */
     object-fit: scale-down;
