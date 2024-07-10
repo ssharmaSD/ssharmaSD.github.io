@@ -32,8 +32,8 @@ nav ul li {
     padding: 14px 20px;
     text-decoration: none;
     border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.5s; /* Smooth transition */
-    border: 2px solid transparent;
+    transition: background-color 0.25s, border 0.25s; /* Smooth transition */
+    border: 2px solid white;
 }
 
 .nav-button:hover {
