@@ -135,7 +135,7 @@ span {
     width: 300px; /* Adjust as needed */
     height: 300px; /* Adjust as needed */
     overflow: hidden;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 50%; /* Creates the oval shape */
     position: relative;
     display: flex;
