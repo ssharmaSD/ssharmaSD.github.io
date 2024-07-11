@@ -27,6 +27,7 @@ nav ul li {
 /* NAVIGATION BAR */
 
 .nav-button {
+    padding-top: 10px;
     background-color: white; /* Button background color */
     color: black; /* Button text color */
     padding: 14px 20px;
@@ -46,6 +47,7 @@ nav ul li {
 .about p {
     padding-left: 10%;
     padding-right: 10%;
+    max-width: 1000px;
 }
 
 main {
