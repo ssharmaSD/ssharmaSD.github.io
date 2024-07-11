@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 body {
     font-family: "Libre Baskerville" serif;
     text-align: center;
@@ -9,6 +10,11 @@ body {
 
 header {
     padding: 15px 0;
+    position: relative;
+}
+
+nav {
+    margin-top: 10px; /* Add margin above the navigation bar */
 }
 
 nav ul {
@@ -38,6 +44,7 @@ nav ul li {
 }
 
 .nav-button:hover {
+    height: 12px 18px;
     background-color: #E2C9F5; /* Button color on hover */
     border-color: #E2C9F5; /* Border color on hover */
 }
