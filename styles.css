@@ -23,6 +23,8 @@ nav ul {
     padding: 0;
     text-align: center;
     font-weight: bold;
+    display: flex;
+    justify-content: center; /* center items horizontally */
 }
 
 nav ul li {
@@ -48,6 +50,27 @@ nav ul li {
     background-color: #E2C9F5; /* Button color on hover */
     border-color: #E2C9F5; /* Border color on hover */
 }
+
+/* MEDIA QUERIES */
+/* these are designed to adjust the nav buttons to the side when screen shrinks*/
+
+@media (max-width: 770px) {
+    nav ul {
+        flex-direction: column; /* make items vertical */
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-top: 50px; 
+    }
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+
 
 /* ABOUT SECTION */
 
