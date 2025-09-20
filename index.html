@@ -4,25 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Suhani Sharma's Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file if you have one -->
+    <meta name="description" content="Suhani Sharma - Data Science Student at UC San Diego. Portfolio showcasing projects, professional experience, and academic achievements.">
+    <meta name="keywords" content="Suhani Sharma, Data Science, UC San Diego, Portfolio, Projects, FSAE, Triton Racing">
+    <meta name="author" content="Suhani Sharma">
+    <title>Suhani Sharma | Data Science Student | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-        .header-left {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background-color: #a677c9;
-            color: white;
-            padding: 10px;
-            font-family: 'Libre Baskerville', serif;
-            border-radius: 5px;
-        }
-        header {
-            position: relative;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -40,42 +30,55 @@
     </header>
 
     <main>
-        <div class="main-container">
-            <div class="rotating-image-container">
-                <img src="images/pfp1.png" alt="PFP 1" class="rotating-image">
+        <section class="hero">
+            <div class="hero-content">
+                <div class="rotating-image-container">
+                    <img src="images/pfp1.png" alt="Suhani Sharma Profile Photo" class="rotating-image">
+                </div>
+                <div class="hero-text">
+                    <h1>Suhani Sharma</h1>
+                    <h2 class="subtitle">Data Science Student at UC San Diego</h2>
+                    <p class="intro-text">Hello! I'm a rising third-year undergraduate at UC San Diego studying Data Science. Throughout my college experience, I've explored diverse applications of data science in finance, data storytelling, and even Formula 1 Racing!</p>
+                    <p class="cta-text">Explore my projects and professional experiences below.</p>
+                    <div class="cta-buttons">
+                        <a href="projects.html" class="btn btn-primary">View Projects</a>
+                        <a href="experience.html" class="btn btn-secondary">Professional Experience</a>
+                    </div>
+                </div>
             </div>
-
-
-        <!-- Contains pictures and intro blurb -->
-            <div class="about">
-                <h1>Suhani Sharma</h1>
-                <h2>Welcome to my portfolio website!</h2>
-                <p>Hello! My name is Suhani Sharma and I am a rising third-year undergraduate at UC San Diego studying Data Science. In my college experience I have tried many ways to see the applications of data science in finance, data storytelling, and even Formula 1 Racing!</p>
-
-                <p>Check out some of my projects and experiences!</p>
-            </div>
-
-        </div>
-    
-
+        </section>
     </main>
 
     <footer>
-        <!-- Contains closing section -->
-        <h3>Connect with me!</h3>
-        <div class="footer-images">
-            <a href="https://www.linkedin.com/in/ssharma-704sd/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" class="footer-icon"></a>
-
-            <a href="https://github.com/ssharmaSD" target="_blank"><img src="images/github.png" alt="GitHub" class="footer-icon"></a>
-
-            <a href="https://ucsd.joinhandshake.com/profiles/40655055" target="_blank"><img src="images/handshake.png" alt="Handshake" class="footer-icon"></a>
-
-
-
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Connect with me</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ssharma-704sd/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <img src="images/linkedin.png" alt="LinkedIn" class="footer-icon">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/ssharmaSD" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                        <img src="images/github.png" alt="GitHub" class="footer-icon">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://ucsd.joinhandshake.com/profiles/40655055" target="_blank" rel="noopener noreferrer" aria-label="Handshake Profile">
+                        <img src="images/handshake.png" alt="Handshake" class="footer-icon">
+                        <span>Handshake</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Information</h4>
+                <p>Email: ssharma@ucsd.edu</p>
+                <p>Location: San Diego, CA</p>
+            </div>
         </div>
-
-        <p>This website is hosted through GitHub Pages and built using HTML and CSS.</p>
-        <p>Thank you to my dear friend Andrew Kuai for inspiring this design. Check out his work at: <a href="https://github.com/Arc-blroth">https://github.com/Arc-blroth</a></p>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Suhani Sharma. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
+            <p>Special thanks to <a href="https://github.com/Arc-blroth" target="_blank" rel="noopener noreferrer">Andrew Kuai</a> for design inspiration.</p>
+        </div>
     </footer>
 
     <script src="scripts.js"></script>
